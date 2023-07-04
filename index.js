@@ -2,8 +2,7 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
-const PORT = 2000;
-const hostName = "localhost";
+const PORT = process.env.PORT;
 
 const server = http.createServer((req, res) => {
   if (req.url === "/") {
@@ -17,8 +16,8 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(PORT, hostName, () => {
-  console.log(`Server is working on http://${hostName}:${PORT}`);
+server.listen(PORT, () => {
+  console.log("Server is working.");
 });
 
 function serveHTML(res, fileName) {
