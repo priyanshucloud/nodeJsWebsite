@@ -1,4 +1,3 @@
-# nodeJsWebsite
 # Website Backend Example (Node.js)
 
 This project is a basic example of how to build a backend for a website using Node.js and connect it to various components. It provides a starting point for building your own website backend by demonstrating fundamental concepts and techniques. You can easily customize it by changing the name and templates according to your specific requirements.
@@ -6,6 +5,7 @@ This project is a basic example of how to build a backend for a website using No
 ## Features
 
 - User authentication and registration
+- Database integration (using a SQLite database)
 - API endpoints for data retrieval and manipulation
 - Template rendering for serving HTML pages
 - Session management for user authentication
@@ -21,21 +21,21 @@ Before using this project, make sure you have the following prerequisites instal
 
 1. Clone the repository to your local machine:
 
-  
-   git clone https://github.com/your-username/your-project.git
-  
+   ```bash
+   git clone git@github.com:vatsrounak/nodeJsWebsite.git
+   ```
 
 2. Navigate to the project directory:
 
-
+   ```bash
    cd your-project
- 
+   ```
 
 3. Install the required dependencies:
 
- 
+   ```bash
    npm install
- 
+   ```
 
 ## Configuration
 
@@ -46,9 +46,9 @@ Before using this project, make sure you have the following prerequisites instal
 
 1. Start the development server:
 
-
+   ```bash
    npm start
-
+   ```
 
 2. Open your web browser and navigate to `http://localhost:3000` to access the website.
 
@@ -75,7 +75,7 @@ This project was inspired by the need for a simple and easy-to-understand exampl
 
 ## Contact
 
-If you have any questions or suggestions regarding this project, please feel free to contact the author:
+If you have any questions or suggestions regarding this project, please feel free to contact me:
 
-- Name: [Your Name]
-- Email: [Your Email]
+- Rounak Vats
+- rounakvats007@gmail.com
